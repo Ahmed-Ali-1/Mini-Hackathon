@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+    --primery: #4CAF4F;
+    --secondery: ;
+    --backgound: ;
+    --text-color: ;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar {
+    background-color: #F5F7FA;
+}
+
+.Mybtn {
+    background: var(--primery);
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 12px;
+}
+
+.onebtn {
+    color: var(--primery);
+
+}
+
+section {
+    padding: 60px;
+}
+
+.Hero_section,
+.Tesla_section {
+    background-color: #F5F7FA;
+}
+
+.head_green,
+.Green {
+    color: var(--primery);
+
+}
+
+.left_side h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 3rem;
+}
+
+.left_side p {
+    color: #717171;
+    font-size: 0.8rem;
+}
+
+.main_text {
+    text-align: center;
+
+}
+
+.main_text h2 {
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.main_text p {
+    color: #717171;
+    font-size: 0.8rem;
+}
+
+.all_icon {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
