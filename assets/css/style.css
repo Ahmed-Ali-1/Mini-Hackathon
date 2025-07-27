@@ -35,15 +35,17 @@
 }
 
 section {
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .Hero_section,
-.Tesla_section {
+.Tesla_section,
+.Helping_Section,
+.small_Div,
+.Demo_section {
     background-color: #F5F7FA;
 }
 
-.head_green,
 .Green {
     color: var(--primery);
 
@@ -60,35 +62,100 @@ section {
     font-size: 0.8rem;
 }
 
-.main_text {
+.center_text {
     text-align: center;
+    letter-spacing: 1px;
 
 }
 
-.main_text h2 {
+.center_text h2,
+.left-Text h2 {
     color: #4D4D4D;
     font-weight: 600;
     font-size: 32px;
 
 }
 
-.main_text p {
+.center_text p {
     color: #717171;
     font-size: 0.8rem;
 }
 
 .all_icon {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
-.Three {
+.all_icon img {
+    width: 40px;
+}
+
+.client_icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.client_icons img {
+    width: 50px;
+}
+
+.card_Div {
+    box-shadow: 0px 0px 2px 2px #F5F7FA;
+}
+
+.card_Div img {
+    width: 60px;
+}
+
+.right_text img {
+    width: 40px;
+}
+
+.Members h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.Members p {
+    color: #717171;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.tesla_text>p {
+    color: #717171;
+}
+
+.card_image {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
+}
+
+.small_Div {
+    padding: 20px 12px;
+    position: relative;
+    bottom: 80px;
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.small_Div p {
+    font-weight: 600;
+    color: #717171;
+}
+
+.Main_Read {
+    display: flex;
+    justify-content: center;
 }
