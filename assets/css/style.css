@@ -57,6 +57,14 @@ section {
     font-size: 3rem;
 }
 
+@media (max-width: 576px) {
+
+    .left_side h1 {
+
+        font-size: 2rem;
+    }
+}
+
 .left_side p {
     color: #717171;
     font-size: 0.8rem;
